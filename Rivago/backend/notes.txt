@@ -1,0 +1,41 @@
+[
+  "students" :  {
+        "name":"yogesh",
+        "email":"ysoni@exaple.com"
+    },
+    "class":{
+        "class-12":"secA",
+        "class-12":"secB",
+        "class-12":"secC"
+    }
+]
+
+mongodb:
+It is nosql db. It is based on Hierarchical structure. It is unstructured .It stored data in form of json.
+mongodb uses collections just like sql has tables.
+
+how to connect mongodb?
+- so i used mongodb cluster and i used async await callback functions to call my database url that generated in our cluster cloud
+
+difference btw compass and cluster?
+- cluster is cloud base so we can retrieve data from anywhere where as we need to install compass in our system and it works locally.
+
+mongodb queries:
+insert : db.(tablename).insertOne({"name":"yogesh"}) insertMany
+update : db.(tablename).updateOne({"class-12":"secD"})
+delete : db.(tablename).drop()
+
+
+what is ur project functionality?
+we can create our own travelling package and for this i used basic crud operation in which for creating a package i made an api in express that send data to db and store there.
+i also reflect the same package on our website that we just created.for this i have created another api that retrive the data from db and show on our website.
+
+
+
+
+
+
+post = to send data
+get = to get data
+put/update = to update data
+delete = to delete data
